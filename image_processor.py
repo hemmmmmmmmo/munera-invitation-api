@@ -7,7 +7,7 @@ class ImageProcessor:
         base_dir = os.path.dirname(os.path.abspath(__file__))
 
         # Paths
-        self.template_path = os.path.join(base_dir, "delegate_bg.png")
+        self.template_path = os.path.join(base_dir, "assets", "images", "delegate_bg.png")
         self.output_dir = os.path.join(base_dir, "output")
         os.makedirs(self.output_dir, exist_ok=True)
 
